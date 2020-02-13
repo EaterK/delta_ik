@@ -16,7 +16,7 @@ $ cd ~/your_ws_name
 $ sudo nano CMakeLists.txt 
 
 CMakeLists.txtの上の方に1行追加する
-```
+```CMakeLists.txt
 cmake_minimum_required(VERSION 2.8.3)
 
 set(CATKIN_TOPLEVEL TRUE)
@@ -24,7 +24,7 @@ set(CATKIN_TOPLEVEL TRUE)
 ...
 ```
 ▽
-```
+```CMakeLists.txt
 cmake_minimum_required(VERSION 2.8.3)
 
 set(CMAKE_CXX_FLAGS "-std=c++0x ${CMAKE_CXX_FLAGS}")
